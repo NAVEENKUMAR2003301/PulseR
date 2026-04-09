@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import pulse from "../../images/pulse.png"
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -89,7 +90,7 @@ export default function Navbar() {
         <div className="navbar-content">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             <div className="logo-container-3d">
-              <img src="/images/Pulse.png" alt="PULSE Logo" style={{width: '100%', height: '100%', objectFit: 'contain'}} />
+              <img src={pulse} alt="PULSE Logo" style={{width: '100%', height: '100%', objectFit: 'contain'}} />
             </div>
           </Link>
 
