@@ -1,10 +1,3 @@
 [build]
- 
-base = "client"        # correct (relative, quoted)
-publish = "dist"
-command = "npm run build"
-
- [build]
-  base = "frontend"   # only if you really have a frontend/ subfolder named "frontend"
   command = "npm run build"
-  publish = "frontend/build"
+  publish = "build"
