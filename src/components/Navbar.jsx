@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import pulse from "../../images/pulse.png"
+import pulse from "../../images/Pulse.png"
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
