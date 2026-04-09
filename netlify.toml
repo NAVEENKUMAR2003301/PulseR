@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "dist" # change to your build output directory, e.g. "build" or "public"
+
+[build.environment]
+  # optional: example to set Node version via environment
+  NODE_VERSION = "16"
